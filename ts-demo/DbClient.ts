@@ -7,7 +7,7 @@ import { Db, MongoClient } from 'mongodb';
  */
 
 export class MongoDb {
-    private client: MongoClient;
+    private client!: MongoClient;
     private readonly connectionString = 'mongodb://localhost:27017';
     private readonly dbName = 'dashboard';
 
